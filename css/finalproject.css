@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+html {
+    
+    background-image: url(../Images/background.jpg)
+       
+}
+
+body{
+       
+    align-content: center;
+    
+    width: 960px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    text-align: center;
+
+    
+    border: 4px solid #000;
+    background-color: white;
+        
+}
+
+
+    
+        a{ 
+    font-size: 12pt;
+            color: #686143;
+            text-decoration: none;
+    
+    }
+    
+
+
+
+
+h0 {
+     font-family: Comfortaa, sans-serif;
+    color: red;
+    
+    
+}
+h1 {
+     font-family: Catamaran, sans-serif;
+   font-size: 36pt;
+    color: black;
+    text-transform: none;
+    text-align: center;
+    
+}
+
+h2{
+       font-family: Catamaran, sans-serif;
+    font-size: 18;
+    color: black;
+    
+    
+}
+
+hcontact { 
+        font-family: Catamaran, sans-serif;
+       font-size: 54pt;
+    color: black;
+    text-transform: uppercase; 
+    text-align: center;
+    text-decoration-line: none;
+}
+    
+p{
+    
+    font-size: 12pt;
+    line-height: 14pt;
+}
+
+
+img{
+    
+    border: medium solid #666;
+   
+    
+}
+
+
+b{
+    
+    
+    align-content: center;
+}
+
+
+
+
+
+<head>
+<style>
+div.header {
+    display: block; text-align: center; 
+    position: running(header);
+}
+div.footer {
+    display: block; text-align: center;
+    position: running(footer);
+}
+@page {
+    @top-center { content: element(header) }
+}
+@page { 
+    @bottom-center { content: element(footer) }
+}
+</style>
+</head>
+<body>
+    <div class='header'>Header</div>
+    <div class='footer'>Footer</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
